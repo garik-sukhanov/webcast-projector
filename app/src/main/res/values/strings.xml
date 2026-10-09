@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Проектор WebCast</string>
+
+    <string name="url_hint">Адрес сайта с видео…</string>
+    <string name="go">Открыть</string>
+
+    <string name="connect_projector">① Подключить проектор</string>
+    <string name="to_projector">② На проектор ▶</string>
+    <string name="stop">⏹ Стоп</string>
+    <string name="blackout">◑ Затемнить</string>
+
+    <string name="status_no_display">Проектор не подключён. Нажмите «① Подключить проектор».</string>
+    <string name="status_ready">Проектор найден: %1$s. Жмите «② На проектор ▶».</string>
+    <string name="status_projecting">Показ идёт на: %1$s</string>
+
+    <!-- Диалог подключения -->
+    <string name="connect_title">Подключение проектора</string>
+    <string name="connect_message">Сейчас откроется окно трансляции Samsung.\n\n1. Выберите в списке ваш проектор.\n2. Если список пуст — нажмите ⋮ (три точки) вверху справа и включите «Беспроводной дисплей», затем выберите проектор.\n\nКогда подключитесь — вернитесь в приложение, статус сменится на «Проектор найден».</string>
+    <string name="open">Открыть окно трансляции</string>
+
+    <!-- Разрешение overlay -->
+    <string name="overlay_title">Нужно разрешение</string>
+    <string name="overlay_message">Чтобы показывать плавающую кнопку поверх приложений и затемнять планшет, разрешите «Поверх других приложений».</string>
+    <string name="grant">Разрешить</string>
+
+    <string name="no_projector_title">Проектор не найден</string>
+    <string name="no_projector_message">Сначала подключите проектор по Miracast (кнопка «① Подключить проектор»), затем нажмите «② На проектор ▶».</string>
+
+    <string name="no_cast_settings">Не нашёл окно трансляции. Откройте Настройки → Подключённые устройства → Smart View / Трансляция.</string>
+    <string name="open_page_first">Сначала откройте страницу с видео в браузере.</string>
+    <string name="sent_to_projector">Отправлено на проектор</string>
+
+    <!-- Плавающая кнопка и затемнение -->
+    <string name="float_label">ТВ</string>
+    <string name="blackout_overlay_hint">Долгое нажатие — выйти из затемнения</string>
+    <string name="blackout_needs_projection">Сначала выведите видео на проектор.</string>
+
+    <!-- Уведомление сервиса -->
+    <string name="notif_title">Показ на проекторе</string>
+    <string name="notif_text">Тап по «ТВ»-кнопке — затемнить планшет</string>
+    <string name="notif_channel">Трансляция на проектор</string>
+    <string name="display_lost">Проектор отключился.</string>
+</resources>
